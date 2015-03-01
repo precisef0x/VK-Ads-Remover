@@ -1,0 +1,9 @@
+Package: ru.precisef0x.vkadsremover
+Name: VK Ads Remover
+Depends: mobilesubstrate
+Version: 1.1.0
+Architecture: iphoneos-arm
+Description: Твик убирает рекламу в приложении VK App v2.2 и VK HD Appstore 2.0 для iPad
+Maintainer: Ilya Kambarov <admin@onescript.ru>
+Author: Ilya Kambarov <admin@onescript.ru>
+Section: Tweaks

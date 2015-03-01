@@ -1,0 +1,5 @@
+{ Filter = {
+Bundles = ( "com.vk.vkclient", "com.vk.vkhd" );
+Executables = ("vkclient", "VkHdAppstore");
+Mode = "Any";
+}; }
