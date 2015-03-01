@@ -38,7 +38,7 @@
 %end
 
 
-%ctor	//Will be executed right after the lib loads
+%ctor	//Will be executed right after the lib is loaded
 {
 	NSLog(@"Thanks for using Vk Ads Remover!");
 	NSString *prodName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];	//Check the application BundleID
