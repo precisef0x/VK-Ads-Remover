@@ -1,11 +1,11 @@
 GO_EASY_ON_ME = 1
-export SDKVERSION=8.1
-export THEOS_DEVICE_IP=192.168.1.10
+export SDKVERSION=8.4
+export THEOS_DEVICE_IP=192.168.20.1
 
 include theos/makefiles/common.mk
 
 TWEAK_NAME = VKAdsRemover
-VKAdsRemover_FILES = Tweak.xm
+VKAdsRemover_FILES = main.xm
 VKAdsRemover_FRAMEWORKS = UIKit
 ARCHS = armv7 armv7s arm64
 
